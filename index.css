@@ -4,11 +4,7 @@
 }
 .content{
     height: 20vw;
-    width: 100vw;
+    width: vw;
     background-color: blue;
 }
-.promotion{
-    height: 100%;
-    width: 100%;
-    background-color: red;
-}
+

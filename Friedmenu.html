@@ -3,15 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>เมนูทอด</title>
+
 </head>
+<style>
+  body {
+    background-color: #f0f0f0; /* สีพื้นหลังเป็นตัวเลขหรือโค้ดสี */
+  }
+  /* ตั้งค่าสไตล์ของ navigation bar */
+  nav {
+      background-color: #333; /* สีพื้นหลัง */
+      overflow: hidden;
+    }
+
+    nav ul {
+      list-style-type: none; /* เอา bullet ออก */
+      margin: 0;
+      padding: 0;
+      text-align: center; /* จัดให้อยู่ตรงกลาง */
+    }
+
+    nav ul li {
+      display: inline; /* แสดงเป็น inline */
+      margin-right: 10px; /* ระยะห่างระหว่างปุ่ม */
+    }
+
+    nav ul li a {
+      display: inline-block; /* แสดงเป็น block กล่อง จึงสามารถตั้งค่า width ได้ */
+      padding: 10px 20px; /* ขนาดของปุ่ม */
+      text-decoration: none; /* ไม่มี underline */
+      color: white; /* สีตัวอักษร */
+    }
+
+    nav ul li a:hover {
+      background-color: #555; /* เปลี่ยนสีพื้นหลังเมื่อ hover */
+    }
+    
+</style>
 <body>
+  <div class="Header">
+    <h1 style="font-size:3vw;">ร้านครัวเเสนอร่อย</h1>
+</div>
+
+<nav>
+<ul>
+<li><a href="index.html">หน้าแรก</a></li>
+<li><a href="Fast food.html">อาหารจานเดียว</a></li>
+<li><a href="#">ก๋วยเตี๋ยว</a></li>
+<li><a href="Friedmenu.html">เมนูทอด</a></li>
+</ul>
+</nav>
     <header>
         <h1>เมนูอาหาร</h1>
         <style>
             body {
               background-color: #f0f0f0; /* สีพื้นหลังเป็นตัวเลขหรือโค้ดสี */
             }
+            
           </style>
     </header>
     <section id="main-content">
@@ -28,11 +77,6 @@
        
        
     </section>
-    <style>
-        body {
-          background-color: #f0f0f0; /* สีพื้นหลังเป็นตัวเลขหรือโค้ดสี */
-        }
-      </style>
 </body>
 </html>
  

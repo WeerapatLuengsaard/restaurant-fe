@@ -1,6 +1,5 @@
 .Header{
-    display: flex;
-    position: fixed;
+    display: block;
     text-align: center;
 }
 .content{
@@ -46,5 +45,6 @@ body {
         li {
             margin-bottom: 10px;
         }
-    
+
+
 

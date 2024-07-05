@@ -8,11 +8,12 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: #EADDCA;
   }
   /* ตั้งค่าสไตล์ของ navigation bar */
   nav {
-      background-color: #333; /* สีพื้นหลัง */
+      background-color: #DAA06D; /* สีพื้นหลัง */
       overflow: hidden;
     }
 
@@ -36,7 +37,7 @@ body {
     }
 
     nav ul li a:hover {
-      background-color: #555; /* เปลี่ยนสีพื้นหลังเมื่อ hover */
+      background-color:#B87333; /* เปลี่ยนสีพื้นหลังเมื่อ hover */
     }
     ul {
             list-style-type: none;
